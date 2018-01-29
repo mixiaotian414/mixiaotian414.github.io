@@ -52,7 +52,8 @@ h1,h2,h3,h4,h5,h6,label,p{
 	text-decoration: none;
 }
 .logo h1 a span{
-	color:#eb1478;;
+
+	color: #8b0eea;  font-family: 微软雅黑;font-weight: bold;
 }
 .navbar-nav {
     float: right;
