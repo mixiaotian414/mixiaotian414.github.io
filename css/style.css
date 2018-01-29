@@ -292,6 +292,7 @@ ul.nav.navbar-nav li a:focus::after {
 	display: block;
 	min-height: 100%;
 	max-width: 100%;
+	width: 100%;
 	opacity: 0.8;
 }
 
@@ -1348,7 +1349,7 @@ figure.effect-jazz h4 {
 }
 .header {
     width: 100%;
-    min-height: 540px;
+    /*min-height: 540px;*/
 }
 .col-top p,.top-event p,.advantage-top p {
     width: 80%;
@@ -1440,7 +1441,7 @@ ul.nav.navbar-nav li a {
     background-color: #8b0eea;
 }
 .navbar-toggle {
-    margin-top: 13px;
+    margin-top: 20px;
 
 }
 
@@ -1468,7 +1469,7 @@ ul.nav.navbar-nav li a {
     background-color: #8b0eea;
 }
 .navbar-toggle {
-    margin-top: 13px;
+    margin-top: 20px;
 /*	margin-top: 5px;*/
 }
 .banner {
@@ -1478,7 +1479,7 @@ ul.nav.navbar-nav li a {
     margin-top: 2em;
 }
 .header {
-    min-height: 450px;
+    /*min-height: 450px;*/
 }
 .ser-grid {
     padding-top: 2em;
@@ -1587,7 +1588,7 @@ figure.effect-jazz h4.effcet-text{
     font-size: 1.7em;
 }
 .header {
-    min-height: 390px;
+    /*min-height: 390px;*/
 }
 .col-top h3, .services h3, .top-event h3, .test h3, .advantage-top h3, .our-team h3, .contact-form h3 {
     font-size: 2em;
@@ -1715,7 +1716,7 @@ figure.effect-jazz h4.effcet-text{
     padding: 0em 0 0;
 }
 .header {
-    min-height: 286px;
+   /* min-height: 286px;*/
 }
 .col-top, .services, .event, .test, .advantage, .our-team {
     padding: 1.5em 0;
