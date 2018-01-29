@@ -1440,8 +1440,8 @@ ul.nav.navbar-nav li a {
     background-color: #8b0eea;
 }
 .navbar-toggle {
-  /*  margin-top: 13px;*/
-    margin-top: 5px;
+    margin-top: 13px;
+
 }
 
 }
@@ -1468,8 +1468,8 @@ ul.nav.navbar-nav li a {
     background-color: #8b0eea;
 }
 .navbar-toggle {
-  /*  margin-top: 13px;*/
-	margin-top: 5px;
+    margin-top: 13px;
+/*	margin-top: 5px;*/
 }
 .banner {
     padding: 1em 0 0;
