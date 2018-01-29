@@ -1,10 +1,634 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
-    <title>严振杰</title>
-</head>
+<title>秋江装饰</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<!-- Custom Theme files -->
+<script src="js/jquery.min.js"></script>
+<!--theme-style-->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />	
+<!--//theme-style-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+<script type="application/x-javascript">
+	addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); }
+</script>
+
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+					jQuery(document).ready(function($) {
+						$(".scroll").click(function(event){		
+							event.preventDefault();
+							$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+						});
+					});
+					</script>
+<!----start-top-nav-script---->
+<script type="text/javascript" src="js/modernizr.custom.js"></script>
+<!--animate-->
+<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+<script src="js/wow.min.js"></script>
+	<script>
+		 new WOW().init();
+	</script>
+<!--//end-animate-->
+<!--百度地图-->
+<style type="text/css">
+		html,body{margin:0;padding:0;}
+		.iw_poi_title {color:#CC5522;font-size:14px;font-weight:bold;overflow:hidden;padding-right:13px;white-space:nowrap}
+		.iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:4px;white-space:-moz-pre-wrap;word-wrap:break-word}
+	</style>
+<script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+  </head>
 <body>
-我叫严振杰，软件工程师，英文名Yolanda，尤兰达，他们叫我达哥。
+<!--header-->
+<div class="header" id="home">
+	<div class="container">
+		<div class="head">
+			<nav class="navbar navbar-default">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+					  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					  </button>
+						 <div class="navbar-brand logo wow fadeInLeft animated" data-wow-delay=".5s">
+							<h1>
+								<a href="index.html">秋<br>江<br><span>装<br>饰</span></a></h1>
+						</div>
+					</div>
+
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+					 <ul class="nav navbar-nav wow fadeInDown animated" data-wow-delay=".5s">
+						<li ><a href="index.html" class=" scroll"><span data-hover="Home">首页</span></a> </li>
+						<li ><a href="#about" class=" scroll"><span data-hover="About">关于我们</span> </a> </li>
+						 <li><a href="#services"  class="scroll"><span data-hover="Service">公司服务</span></a></li>
+						 <li><a href="#events"  class="scroll"><span data-hover="Gallery">实例展示</span></a></li>
+						 <li><a href="#team"  class="scroll"><span data-hover="Gallery">公司团队</span></a></li>
+						<li><a href="#contact" class=" scroll"><span data-hover="Contact">联系我们</span></a></li>
+					  </ul>
+					</div>
+				<!-- /.navbar-collapse -->
+				</nav>
+				
+		</div>
+		<div class="banner">
+			<section class="wrapper wow fadeInUp animated" data-wow-delay=".5s">
+			  <h2 >追<big style="color:#eb1478 ">“秋”</big>艺术与技术的结合 </h2>
+			  <h3 class="sentence">必<big style="color:#eb1478 ">“江”</big>缔造属于您的经典</h3>
+			</section>
+			<a href="produc.html" class="hvr-rectangle-out wow fadeInDown animated" data-wow-delay=".5s">了解更多</a>
+		</div>
+	</div>
+</div>
+<!--content-->
+<div class="content">
+	<div class="container">
+		<div class="col-top" id="about">
+			<h3>公司简介</h3>
+			<p>
+				秋江装饰——专业设计，私人定制，家装行业的创新者秋江装饰成立于2002年，是一家具有15年行业经验的家装领先者
+				、是传统家具向家居服务业转型升级的代表企业。目前，秋江装饰拥有一批平均家装经验超过10年专业的施工人员，
+				水电、木工、瓦工等一条龙服务。施工地点遍布新疆、大连、沈阳、鞍山、辽阳等地，对北方建筑家装风格有一定的见
+				解。特别对精小户型家装有独特的风格设计。
+			</p>
+		</div>
+ 		 <div class="clearfix"></div>
+ 	 </div>
+</div>
+<div class="portfolio" id="gallery">
+ 	<div class="portfolio-top wow fadeInDown animated" data-wow-delay=".5s">
+
+			<div class="col-md-4 grid slideanim">
+				<figure class="effect-jazz">
+				<a href="#portfolioModal1"  data-toggle="modal">
+
+					<img src="images/pi.jpg" alt="img25" class="img-responsive"/>
+						<figcaption>
+							<h4> 家的温馨 我们给您</h4>
+							<p> 服务一分心血，看见一分质量，收获一分信任。</p>
+						</figcaption>
+					</a>
+				</figure>
+			</div>
+			<div class="col-md-4 grid slideanim">
+				<figure class="effect-jazz">
+				<a href="#portfolioModal2"  data-toggle="modal">
+
+					<img src="images/pi1.jpg" alt="img25" class="img-responsive"/>
+						<figcaption>
+							<h4> 家的温馨 我们给您</h4>
+							<p> 服务一分心血，看见一分质量，收获一分信任。</p>
+						</figcaption>
+						</a>
+				</figure>
+			</div>
+			<div class="col-md-4 grid slideanim">
+				<figure class="effect-jazz">
+					<a href="#portfolioModal3"  data-toggle="modal">
+
+						<img src="images/pi2.jpg" alt="img25" class="img-responsive"/>
+							<figcaption>
+								<h4> 家的温馨 我们给您</h4>
+								<p> 服务一分心血，看见一分质量，收获一分信任。</p>
+							</figcaption>
+					</a>
+				</figure>
+			</div>
+			<div class="clearfix"></div>
+	 </div>
+</div>
+<!---->
+<!-- Portfolio Modals -->
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h3>家的温馨 我们给您</h3>
+
+                        <img src="images/pi.jpg" class="img-responsive" alt="">
+                        <p>服务一分心血，看见一分质量，收获一分信任。</p>
+                    </div>
+                </div>
+
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h3>家的温馨 我们给您</h3>
+
+                        <img src="images/pi1.jpg" class="img-responsive" alt="">
+                        <p>服务一分心血，看见一分质量，收获一分信任。 </p>
+                    </div>
+                </div>
+
+        </div>
+    </div>
+    </div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h3>家的温馨 我们给您</h3>
+
+                        <img src="images/pi2.jpg" class="img-responsive" alt="">
+						<p>服务一分心血，看见一分质量，收获一分信任。</p>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+</div>
+<!-- /Portfolio Modals -->
+
+<!---->
+<div class="container">
+	<div class="services" id="services">
+			<h3>公司服务</h3>
+			<div class="ser-grid ">
+			<div class="col-md-4 ser-top wow fadeInLeft animated" data-wow-delay=".5s">
+				<h5>住宅装修</h5>
+				<p>住宅装修、店铺装修、店面装修、办公室写字楼装修、厂房装修</p>
+			</div>
+			<div class="col-md-4 ser-top wow fadeInLeft animated" data-wow-delay=".5s">
+					<h5>防水工程</h5>
+					<p>厨房卫生间防水，楼顶防水补漏工程，水路安装，弱电工程制作。</p>
+				</div>
+			<div class="col-md-4 ser-top wow fadeInRight animated" data-wow-delay=".5s">
+				<h5>专业瓦工</h5>
+				<p>铺贴地砖、瓷砖、大理石，砌红砖墙，厨、卫改造。</p>
+			</div>
+			<div class="col-md-4 ser-top wow fadeInRight animated" data-wow-delay=".5s">
+					<h5>家具定做</h5>
+					<p>包门套、窗套，制作各类衣柜、办公桌、展示柜。</p>
+				</div>
+			<div class="col-md-4 ser-top wow fadeInRight animated" data-wow-delay=".5s">
+					<h5>水电改造</h5>
+					<p>厨卫改装、水电安装、办公楼弱电安装维修。</p>
+				</div>
+			<div class="col-md-4 ser-top wow fadeInRight animated" data-wow-delay=".5s">
+					<h5>房屋简装</h5>
+					<p>铺地板、做厨柜、吊柜、地柜、隔木板墙、吊顶造型、屏风制作等。</p>
+				</div>
+			<div class="clearfix"></div>
+			</div>
+	</div>
+</div>
+<!---->
+<div class="event" id="events">
+	<div class="container">
+		<div class="top-event">
+				<h3>实例展示</h3>
+				<p>
+					秋江装饰公司自成立以来，一直秉承“质量第一、信誉至上”的经营理念，通过服务创新，来满足我们所服务的客
+					户潜在需求；通过技术创新来改变原始施工模式；通过工艺创新来提高施工质量，从而避免了业主使用中容易出
+					现的售后问题；通过材料统一配送，减少中间环节杜绝假货进入施工现场；通过后场配套形成工厂化生产，降低
+					施工成本，慢慢取代人工操作的个体化作业；通过不断创新的经营思路，使我们秋江装饰公司逐步走向规范化、精
+					致化、流程化、科学化
+				</p>
+			</div>
+		<div class="event-grid ">
+				<div class="event-left wow fadeInLeft animated" data-wow-delay=".5s">
+					<a href="produc-1.html"><img src="images/pc.jpg" class="img-responsive" alt=""></a>
+					<div class="event-top">
+						<div class="event-gr">
+							<h4><a href="produc-1.html">风格一</a> </h4>
+							<p> 清新自然，整体色彩明亮，颜色搭配高贵典雅，吊顶的设计更是把空间划分明确，层次感很强</p>
+						</div>
+					</div>
+				</div>
+				<div class="event-right wow fadeInRight animated" data-wow-delay=".5s">
+					<a href="single.html"><img src="images/pc1.jpg" class="img-responsive" alt=""></a>
+					<div class="event-top event-top1">
+						<div class="event-gr">
+							<h4><a href="single.html">风格二</a> </h4>
+							<p> 清新自然，整体色彩明亮，颜色搭配高贵典雅，吊顶的设计更是把空间划分明确，层次感很强 </p>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		<div class="event-grid">
+				<div class="event-left event-left1 wow fadeInRight animated" data-wow-delay=".5s">
+					<a href="single.html"><img src="images/pc2.jpg" class="img-responsive" alt=""></a>
+					<div class="clearfix"></div>
+					<div class="event-top event-t">
+						<div class="event-gr">
+							<h4><a href="single.html">风格三 </a></h4>
+							<p> 清新自然，整体色彩明亮，颜色搭配高贵典雅，吊顶的设计更是把空间划分明确，层次感很强</p>
+						</div>
+					</div>
+				</div>
+				<div class="event-right event-right1 wow fadeInLeft animated" data-wow-delay=".5s">
+					<a href="single.html"><img src="images/pc3.jpg" class="img-responsive" alt=""></a>
+					<div class="clearfix"></div>
+					<div class="event-top event-t1">
+						<div class="event-gr">
+							<h4><a href="single.html">风格四 </a></h4>
+							<p> 清新自然，整体色彩明亮，颜色搭配高贵典雅，吊顶的设计更是把空间划分明确，层次感很强</p>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		<div class="event-grid ">
+				<div class="event-left wow fadeInLeft animated" data-wow-delay=".5s">
+					<a href="single.html"><img src="images/pc4.jpg" class="img-responsive" alt=""></a>
+					<div class="event-top">
+						<div class="event-gr">
+							<h4><a href="single.html">风格五 </a></h4>
+							<p> 清新自然，整体色彩明亮，颜色搭配高贵典雅，吊顶的设计更是把空间划分明确，层次感很强</p>
+						</div>
+					</div>
+				</div>
+				<div class="event-right wow fadeInRight animated" data-wow-delay=".5s">
+					<a href="single.html"><img src="images/pc5.jpg" class="img-responsive" alt=""></a>
+					<div class="event-top event-top1">
+						<div class="event-gr">
+							<h4><a href="single.html">风格六 </a></h4>
+							<p> 清新自然，整体色彩明亮，颜色搭配高贵典雅，吊顶的设计更是把空间划分明确，层次感很强</p>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+	</div>
+</div>
+<!---->
+ <div class="our-team" id="team">
+		 <div class="container">
+				 <h3>公司团队</h3>
+			 <div class="team">
+				<div class="col-md-6 team-grid wow fadeInLeft animated" data-wow-delay=".5s">
+					 <div class="team-1">
+						 <div class="col-md-5 col-1 ">
+							<img class="img-responsive gray" src="images/te.jpg" alt="">
+						 </div>
+						 <div class="col-md-7 col-1-at">
+							<h5><a href="single.html">秋江</a></h5>
+							<p>
+								秋江装饰总经理，从事装饰行业20余年，经验丰富。
+							</p>
+						 </div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="col-md-6 team-grid wow fadeInRight animated" data-wow-delay=".5s">
+					<div class="team-1">
+						<div class="col-md-5 col-1 ">
+							<img class="img-responsive gray" src="images/te.jpg" alt="">
+						</div>
+						<div class="col-md-7 col-1-at">
+							<h5><a href="single.html">秋江</a></h5>
+							<p>
+								秋江装饰总经理，从事装饰行业20余年，经验丰富。
+							</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				 <div class="clearfix"> </div>
+			 </div>
+			  <div class="team">
+				<div class="col-md-6 team-grid wow fadeInRight animated" data-wow-delay=".5s">
+					<div class="team-1">
+						<div class="col-md-5 col-1 ">
+							<img class="img-responsive gray" src="images/te.jpg" alt="">
+						</div>
+						<div class="col-md-7 col-1-at">
+							<h5><a href="single.html">秋江</a></h5>
+							<p>
+								秋江装饰总经理，从事装饰行业20余年，经验丰富。
+							</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="col-md-6 team-grid wow fadeInLeft animated" data-wow-delay=".5s">
+					 < <div class="team-1">
+					<div class="col-md-5 col-1 ">
+						<img class="img-responsive gray" src="images/te.jpg" alt="">
+					</div>
+					<div class="col-md-7 col-1-at">
+						<h5><a href="single.html">秋江</a></h5>
+						<p>
+							秋江装饰总经理，从事装饰行业20余年，经验丰富。
+						</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				</div>
+
+				 <div class="clearfix"> </div>
+			 </div>
+		</div>
+	</div>
+<!---->
+<div class="clients" >
+			 <div class="container">
+				 <h3>选择秋江 秋江给您一个温暖的家 </span></h3>
+				 <!---->
+				 <!-- requried-jsfiles-for owl -->
+				 <link href="css/owl.carousel.css" rel="stylesheet">
+				 <script src="js/owl.carousel.js"></script>
+				 <script>
+									    $(document).ready(function() {
+									      $("#owl-demo1").owlCarousel({
+									        items : 1,
+									        lazyLoad : true,
+									        autoPlay : true,
+									        navigation : true,
+									        navigationText :  true,
+									        pagination : false,
+									      });
+									    });
+									  </script>
+				 <!-- //requried-jsfiles-for owl -->
+				 <!-- start content_slider -->
+				 <div id="owl-demo1" class="owl-carousel wow fadeInDown animated" data-wow-delay=".5s">
+					 <div class="item-bottom">
+					                <div class="item-right">
+									<p>
+										面对快速发展的装饰行业，秋江装饰公司将继往开来，发扬“与时俱进，追求卓越”的元隆
+										精神，凭借优质的工程质量、完善的服务体系，以市场化、多元化的经营理念开拓发展，
+										创造出更加辉煌灿烂的秋江装饰公司明天。
+									</p>
+									</div>
+								</div>
+					 <div class="item-bottom">
+						 <div class="item-right">
+							 <p>
+								 面对快速发展的装饰行业，秋江装饰公司将继往开来，发扬“与时俱进，追求卓越”的元隆
+								 精神，凭借优质的工程质量、完善的服务体系，以市场化、多元化的经营理念开拓发展，
+								 创造出更加辉煌灿烂的秋江装饰公司明天。
+							 </p>
+						 </div>
+					 </div>
+					 <div class="item-bottom">
+						 <div class="item-right">
+							 <p>
+								 面对快速发展的装饰行业，秋江装饰公司将继往开来，发扬“与时俱进，追求卓越”的元隆
+								 精神，凭借优质的工程质量、完善的服务体系，以市场化、多元化的经营理念开拓发展，
+								 创造出更加辉煌灿烂的秋江装饰公司明天。
+							 </p>
+						 </div>
+					 </div>
+				 </div>
+				</div>
+			</div>
+<!--contact--->
+<div class="contact" id="contact">
+	<div class="col-md-6  map wow fadeInLeft animated text-center" data-wow-delay=".5s">
+		<div style="width:100%;height:550px;margin-left:2em;margin-top:1em;border:#ccc solid 1px;" id="dituContent" class=""></div>
+		<script type="text/javascript">
+			//创建和初始化地图函数：
+			function initMap(){
+				createMap();//创建地图
+				setMapEvent();//设置地图事件
+				addMapControl();//向地图添加控件
+				addMarker();//向地图中添加marker
+			}
+
+			//创建地图函数：
+			function createMap(){
+				var map = new BMap.Map("dituContent");//在百度地图容器中创建一个地图
+				var point = new BMap.Point(123.33321,41.437006);//定义一个中心点坐标
+				map.centerAndZoom(point,18);//设定地图的中心点和坐标并将地图显示在地图容器中
+				window.map = map;//将map变量存储在全局
+			}
+
+			//地图事件设置函数：
+			function setMapEvent(){
+				map.enableDragging();//启用地图拖拽事件，默认启用(可不写)
+				map.enableScrollWheelZoom();//启用地图滚轮放大缩小
+				map.enableDoubleClickZoom();//启用鼠标双击放大，默认启用(可不写)
+				map.enableKeyboard();//启用键盘上下左右键移动地图
+			}
+
+			//地图控件添加函数：
+			function addMapControl(){
+				//向地图中添加缩放控件
+				var ctrl_nav = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:BMAP_NAVIGATION_CONTROL_LARGE});
+				map.addControl(ctrl_nav);
+				//向地图中添加缩略图控件
+				var ctrl_ove = new BMap.OverviewMapControl({anchor:BMAP_ANCHOR_BOTTOM_RIGHT,isOpen:1});
+				map.addControl(ctrl_ove);
+				//向地图中添加比例尺控件
+				var ctrl_sca = new BMap.ScaleControl({anchor:BMAP_ANCHOR_BOTTOM_LEFT});
+				map.addControl(ctrl_sca);
+			}
+
+			//标注点数组
+			var markerArr = [{title:"秋江装饰",content:"秋江装饰",point:"123.332244|41.437216",isOpen:0,icon:{w:21,h:21,l:0,t:0,x:6,lb:5}}
+			];
+			//创建marker
+			function addMarker(){
+				for(var i=0;i<markerArr.length;i++){
+					var json = markerArr[i];
+					var p0 = json.point.split("|")[0];
+					var p1 = json.point.split("|")[1];
+					var point = new BMap.Point(p0,p1);
+					var iconImg = createIcon(json.icon);
+					var marker = new BMap.Marker(point,{icon:iconImg});
+					var iw = createInfoWindow(i);
+					var label = new BMap.Label(json.title,{"offset":new BMap.Size(json.icon.lb-json.icon.x+10,-20)});
+					marker.setLabel(label);
+					map.addOverlay(marker);
+					label.setStyle({
+						borderColor:"#808080",
+						color:"#333",
+						cursor:"pointer"
+					});
+
+					(function(){
+						var index = i;
+						var _iw = createInfoWindow(i);
+						var _marker = marker;
+						_marker.addEventListener("click",function(){
+							this.openInfoWindow(_iw);
+						});
+						_iw.addEventListener("open",function(){
+							_marker.getLabel().hide();
+						})
+						_iw.addEventListener("close",function(){
+							_marker.getLabel().show();
+						})
+						label.addEventListener("click",function(){
+							_marker.openInfoWindow(_iw);
+						})
+						if(!!json.isOpen){
+							label.hide();
+							_marker.openInfoWindow(_iw);
+						}
+					})()
+				}
+			}
+			//创建InfoWindow
+			function createInfoWindow(i){
+				var json = markerArr[i];
+				var iw = new BMap.InfoWindow("<b class='iw_poi_title' title='" + json.title + "'>" + json.title + "</b><div class='iw_poi_content'>"+json.content+"</div>");
+				return iw;
+			}
+			//创建一个Icon
+			function createIcon(json){
+				var icon = new BMap.Icon(" http://map.baidu.com/image/us_mk_icon.png", new BMap.Size(json.w,json.h),{imageOffset: new BMap.Size(-json.l,-json.t),infoWindowOffset:new BMap.Size(json.lb+5,1),offset:new BMap.Size(json.x,json.h)})
+				return icon;
+			}
+
+			initMap();//创建和初始化地图
+		</script>
+	</div>
+	<div class="col-md-6 contact-form wow fadeInRight animated" data-wow-delay=".5s">
+					<h3>联系我们</h3>
+				<div class="col-md-6 contact-top">
+					<form>				
+							<input type="text" placeholder="姓名" required="" >
+							<input type="text" placeholder="邮箱" required="" >
+							<input type="text" placeholder="电话" required="" >
+							<textarea placeholder="建议" required></textarea>
+						<label class="hvr-rectangle-out">
+								<input type="submit" value="提交" >
+						</label>		
+					</form>						
+				</div>
+				
+					<div class="col-md-6 contact-left">
+						
+			
+					<div class="address">
+					<div class=" address-grid">
+							<i class="glyphicon glyphicon-map-marker"></i>
+							<div class="address1">
+								<h6>地址：</h6>
+								<p>
+									灯塔市烟台街道
+								</p>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<div class=" address-grid ">
+							<i class="glyphicon glyphicon-phone"></i>
+							<div class="address1">
+							<h6>联系电话:</h6>
+								<p>+123456789</p>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<div class=" address-grid ">
+							<i class="glyphicon glyphicon-envelope"></i>
+							<div class="address1">
+							<h6>邮箱:</h6>
+								<p><a href="mailto:info@example.com"> Lorem@example.com</a></p>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						
+</div>
+				</div>
+		<div class="clearfix"></div>
+	
+		</div>
+	<div class="clearfix"></div>
+</div>
+
+
+</div>
+<!--//content-->
+<!--//footer-->
+<div class="footer">
+	<div class="container">
+					<p class="footer-class">Copyright &copy; 2016.秋江装饰.<a target="_blank" href="#">mdj</a></p>
+
+			</div>
+</div>
+		<!--//footer-->
+ <script type="text/javascript">
+						$(document).ready(function() {
+							/*
+							var defaults = {
+					  			containerID: 'toTop', // fading element id
+								containerHoverID: 'toTopHover', // fading element hover id
+								scrollSpeed: 1200,
+								easingType: 'linear' 
+					 		};
+							*/
+							
+							$().UItoTop({ easingType: 'easeOutQuart' });
+							
+						});
+					</script>
+<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+
 </body>
 </html>

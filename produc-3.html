@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>秋江装饰</title>
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+	<!-- Custom Theme files -->
+	<script src="js/jquery.min.js"></script>
+	<!--theme-style-->
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<!--//theme-style-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="" />
+	<script type="application/x-javascript">
+		addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); }
+	</script>
+
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			});
+		});
+	</script>
+	<!----start-top-nav-script---->
+	<script type="text/javascript" src="js/modernizr.custom.js"></script>
+	<!--animate-->
+	<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+	<script src="js/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
+	<!--//end-animate-->
+	<!--导航-->
+	<link rel="stylesheet" href="css2/pgwmenu.css">
+</head>
+<body>
+<!--header-->
+<div class="header header-head" id="home">
+<div class="container">
+		<div class="head">
+			<nav class="navbar navbar-default">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+					  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					  </button>
+						 <div class="navbar-brand logo wow fadeInLeft animated" data-wow-delay=".5s">
+							<h1><a href="index.html">秋<br>江<br><span>装<br>饰</span></a></h1>
+						</div>
+					</div>
+
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav wow fadeInDown animated" data-wow-delay=".5s">
+							<li ><a href="index.html" class=" scroll"><span data-hover="Home">首页</span></a> </li>
+							<li ><a href="#about" class=" scroll"><span data-hover="About">关于我们</span> </a> </li>
+							<li><a href="#services"  class="scroll"><span data-hover="Service">公司服务</span></a></li>
+							<li><a href="single.html"  class="scroll"><span data-hover="Gallery">实例展示</span></a></li>
+							<li><a href="#team"  class="scroll"><span data-hover="Gallery">公司团队</span></a></li>
+							<li><a href="index.html" class=" scroll"><span data-hover="Contact">联系我们</span></a></li>
+						</ul>
+					</div>
+				</nav>
+				
+		</div>
+</div>
+</div>
+<!--content-->
+
+<div class="single">
+
+	<div class="container">
+		<div class="row">
+			<h6>
+				<a href="index.html">首页 > </a>
+				<a href="produc.html">实例展示 ></a>
+				<a href="produc-1.html">风格一 </a>
+			</h6>
+		</div>
+		<div class="row li-box3">
+			<h3 class="text-center">风格一</h3>
+		</div>
+		<div class="row qiujiang-nav">
+			<ul class="pgwMenu">
+				<li><a href="produc.html">全部</a></li>
+				<li><a class="selected" href="produc-1.html">风格一</a></li>
+				<li><a href="#">风格二</a></li>
+				<li><a href="#">风格三</a></li>
+				<li><a href="javascript:">风格四</a></li>
+				<li><a href="javascript:">风格五</a></li>
+				<li><a href="#">风格六</a></li>
+			</ul>
+			<script type="text/javascript" src="js/pgwmenu.min.js"></script>
+			<script type="text/javascript">
+				$(function() {
+					$('.pgwMenu').pgwMenu({
+						dropDownLabel: '菜单',
+						viewMoreLabel: '更多<span class="icon"></span>'
+					});
+
+					$('.pgwMenuCustom').pgwMenu({
+						mainClassName: 'pgwMenuCustom',
+						dropDownLabel: '菜单',
+						viewMoreLabel: '更多<span class="icon"></span>'
+					});
+				});
+			</script>
+			<script type="text/javascript">
+				$(document).ready(function(){
+					$(".pgwMenuCustom li").hover(function(){
+						$(this).find("ul").slideDown("slow");
+					},function(){
+						$(this).find("ul").slideUp("fast");
+					});
+				});
+			</script>
+
+		</div>
+		<div class="row li-box4 ">
+			<ul class=" major-list" >
+				<li class=" col-md-3 col-xs-12 ">
+					<h3 class="text-center">
+						实例一
+					</h3>
+					<div class="list-group list-box-2">
+						<img src="images/pi.jpg" alt="" class="img-responsive">
+					</div>
+					<div class="list-box-3">
+						<h4>实例一标题</h4>
+						<p>
+							实例一描述实例一描述实例一描述实例一描述实例一描述实例一描述
+							实例一描述实例一描述实例一描述实例一描述实例一描述实例一描述
+							实例一描述实例一描述实例一描述实例一描述实例一描述实例一描述
+						</p>
+						<div class="list-box-4 text-center">
+							<a href="single.html" class="">了解更多</a>
+						</div>
+					</div>
+				</li>
+				<li class=" col-md-3 col-xs-12 ">
+					<h3 class="text-center">
+						实例一
+					</h3>
+					<div class="list-group list-box-2">
+						<img src="images/pi.jpg" alt="" class="img-responsive">
+					</div>
+					<div class="list-box-3">
+						<h4>实例一标题</h4>
+						<p>
+							实例一描述实例一描述实例一描述实例一描述实例一描述实例一描述
+							实例一描述实例一描述实例一描述实例一描述实例一描述实例一描述
+							实例一描述实例一描述实例一描述实例一描述实例一描述实例一描述
+						</p>
+						<div class="list-box-4 text-center">
+							<a href="single.html" class="">了解更多</a>
+						</div>
+					</div>
+				</li>
+				<li class=" col-md-3 col-xs-12 ">
+					<h3 class="text-center">
+						实例一
+					</h3>
+					<div class="list-group list-box-2">
+						<img src="images/pi.jpg" alt="" class="img-responsive">
+					</div>
+					<div class="list-box-3">
+						<h4>实例一标题</h4>
+						<p>
+							实例一描述实例一描述实例一描述实例一描述实例一描述实例一描述
+							实例一描述实例一描述实例一描述实例一描述实例一描述实例一描述
+							实例一描述实例一描述实例一描述实例一描述实例一描述实例一描述
+						</p>
+						<div class="list-box-4 text-center">
+							<a href="single.html" class="">了解更多</a>
+						</div>
+					</div>
+				</li>
+				<li class=" col-md-3 col-xs-12 ">
+					<h3 class="text-center">
+						实例一
+					</h3>
+					<div class="list-group list-box-2">
+						<img src="images/pi.jpg" alt="" class="img-responsive">
+					</div>
+					<div class="list-box-3">
+						<h4>实例一标题</h4>
+						<p>
+							实例一描述实例一描述实例一描述实例一描述实例一描述实例一描述
+							实例一描述实例一描述实例一描述实例一描述实例一描述实例一描述
+							实例一描述实例一描述实例一描述实例一描述实例一描述实例一描述
+						</p>
+						<div class="list-box-4 text-center">
+							<a href="single.html" class="">了解更多</a>
+						</div>
+					</div>
+				</li>
+				<li class=" col-md-3 col-xs-12 ">
+					<h3 class="text-center">
+						实例一
+					</h3>
+					<div class="list-group list-box-2">
+						<img src="images/pi.jpg" alt="" class="img-responsive">
+					</div>
+					<div class="list-box-3">
+						<h4>实例一标题</h4>
+						<p>
+							实例一描述实例一描述实例一描述实例一描述实例一描述实例一描述
+							实例一描述实例一描述实例一描述实例一描述实例一描述实例一描述
+							实例一描述实例一描述实例一描述实例一描述实例一描述实例一描述
+						</p>
+						<div class="list-box-4 text-center">
+							<a href="single.html" class="">了解更多</a>
+						</div>
+					</div>
+				</li>
+				<li class=" col-md-3 col-xs-12 ">
+					<h3 class="text-center">
+						实例一
+					</h3>
+					<div class="list-group list-box-2">
+						<img src="images/pi.jpg" alt="" class="img-responsive">
+					</div>
+					<div class="list-box-3">
+						<h4>实例一标题</h4>
+						<p>
+							实例一描述实例一描述实例一描述实例一描述实例一描述实例一描述
+							实例一描述实例一描述实例一描述实例一描述实例一描述实例一描述
+							实例一描述实例一描述实例一描述实例一描述实例一描述实例一描述
+						</p>
+						<div class="list-box-4 text-center">
+							<a href="single.html" class="">了解更多</a>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>		
+</div>
+<!--//content-->
+<!--//footer-->
+<div class="footer">
+
+	<div class="container">
+		<p class="footer-class">Copyright &copy; 2016.秋江装饰.<a target="_blank" href="#">mdj</a></p>
+
+	</div>
+
+</div>
+<!--//footer-->
+ <script type="text/javascript">
+						$(document).ready(function() {
+							/*
+							var defaults = {
+					  			containerID: 'toTop', // fading element id
+								containerHoverID: 'toTopHover', // fading element hover id
+								scrollSpeed: 1200,
+								easingType: 'linear' 
+					 		};
+							*/
+							
+							$().UItoTop({ easingType: 'easeOutQuart' });
+							
+						});
+					</script>
+<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+
+</body>
+</html>

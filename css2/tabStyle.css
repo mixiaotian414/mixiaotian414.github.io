@@ -1,0 +1,71 @@
+.tabs {
+	overflow: hidden;
+	width:100%;
+	margin: 0;
+	padding: 0 ;
+	padding-left: 5%;
+	list-style: none;
+	background:url("../images/bg-1.png") repeat-x;
+}
+
+.tabs li {
+	float: left;
+	margin: 0 0 0 0;
+	border-bottom: 1px solid #3d3d3d;
+	background: #8D8D8D ;
+}
+
+.tabs  a {
+	float: left;
+	position: relative;
+	height: 0;
+	text-transform: uppercase;
+	text-decoration: none;
+	border-right: 30px solid transparent;
+	border-bottom: 25px solid #3D3D3D;
+	border-bottom-color: #3d3d3d;
+	opacity: .5;
+	filter: alpha(opacity =       50);
+}
+.tabs li a{
+	color:#fef9e0;
+	font-size: 1em;
+ 	padding-left: 1em;
+	padding-right: 1em;
+}
+.tabs a:hover,.tabs a:focus {
+	border-bottom-color: #3d3d3d;
+	opacity: 1;
+	filter: alpha(opacity =       100);
+}
+
+.tabs a:focus {
+	outline: 0;
+}
+
+.tabs .current {
+	z-index: 3;
+	border-bottom-color: #3d3d3d;
+	opacity: 1;
+	filter: alpha(opacity =       100);
+}
+.content {
+	background: #fff;
+	padding-top: 10px;
+	font-size: 12px;
+}
+.content table{
+	margin-top: 5em;
+}
+.table tbody tr td{
+	vertical-align: middle;
+	height: 5em;
+	transition: all 0.5s;
+}
+.table tbody .tr-2{
+	border-bottom: 2px solid #000;
+}
+.table tbody tr td:hover{
+	color: #eb1478;
+	background: #a2a5a8;
+}
