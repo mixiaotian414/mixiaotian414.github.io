@@ -1434,13 +1434,14 @@ ul.nav.navbar-nav li a {
      box-shadow: none; 
 }
 .navbar-default .navbar-toggle {
-    border-color: #FFF;
+    border-color: #8b0eea;
 }
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #FFF;
+    background-color: #8b0eea;
 }
 .navbar-toggle {
-    margin-top: 13px;
+   /* margin-top: 13px;*/
+    margin-top: 5px;
 }
 
 }
