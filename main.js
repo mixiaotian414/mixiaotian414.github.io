@@ -2,7 +2,7 @@
   $(document).ready(function(){  
    //typed js
     $(".typed").typed({
-        strings: ["I am Risky", "I'm a Web Designer", "The web is building","敬请期待..."],
+        strings: ["Baby Lzy", "I love three things in the world", "sun,moon and you", "sun for morning,moon for night and you forever."],
         typeSpeed: 100,
         backDelay: 900,
         // loop
